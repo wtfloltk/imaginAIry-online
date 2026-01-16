@@ -19,6 +19,9 @@ jobs:
           key: pip
       - name: Python Setup Tools
         run: pip --cache-dir=pip install setuptools
+      - run: pip install --cache-dir=pip -r requirements-dev.txt
+      - run: pip install --cache-dir=pip -r requirements3.txt
+      - run: pip install --cache-dir=pip -r requirements2.txt
       - run: pip install --cache-dir=pip -r requirements.txt
       - name: Install imaginAIry
         run: pip --cache-dir=pip install imaginAIry
