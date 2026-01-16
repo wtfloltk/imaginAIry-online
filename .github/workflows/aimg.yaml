@@ -20,9 +20,6 @@ jobs:
       - name: Python Setup Tools
         run: pip --cache-dir=pip install setuptools
       - run: pip install --cache-dir=pip -r requirements.txt
-      - run: pip install --cache-dir=pip -r requirements2.txt
-      - run: pip install --cache-dir=pip -r requirements3.txt
-      - run: pip install --cache-dir=pip -r requirements-dev.txt
       - name: Install imaginAIry
         run: pip --cache-dir=pip install imaginAIry
       - name: Save pip cache
