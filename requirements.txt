@@ -4,6 +4,23 @@
 #
 #    pip-compile --output-file=requirements-dev.txt requirements-dev.in setup.py
 #
+coverage
+httpx
+mkdocs-material
+mkdocs-click
+mypy
+ruff
+pip-tools
+pytest
+pytest-asyncio
+pytest-randomly
+pytest-sugar
+responses
+types-pillow
+types-psutil
+types-requests
+types-tqdm
+wheel
 accelerate
     # via imaginAIry (setup.py)
 annotated-types
@@ -392,3 +409,4 @@ zipp
 # The following packages are considered to be unsafe in a requirements file:
 # pip
 # setuptools
+
