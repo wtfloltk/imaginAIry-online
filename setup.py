@@ -82,7 +82,6 @@ setup(
         "ftfy>=6.0.1",  # for vendored clip
         "torch>=2.1.0",
         # https://numpy.org/neps/nep-0029-deprecation_policy.html
-        "numpy>=1.22.0",
         "tqdm>=4.64.0",
         "diffusers>=0.30.3",
         "Pillow>=9.1.0",
